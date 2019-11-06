@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>MovieWiki</title>
+  </head>
+  <body>
+    <section id="search">
+      <div id="title">
+        <span>Movie </span>
+        <h1>Wiki</h1>
+        <div style="display: flex;">
+          <input type="text" id="movie" placeholder="Search for movies" />
+          <a href="#movieshow">
+            <button id="btn" href="#movies" onclick="search()">
+              search
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="movieshow">
+      <div class="container">
+        <h1 id="moviename"></h1>
+        <div class="row">
+          <div class="cols" id="cols">
+          
+        </div>
+        <div class="cols" id="colss">
+          </div>
+      </div>
+    </section>
+    <script src="JS/app.js"></script>
+  </body>
+</html>
